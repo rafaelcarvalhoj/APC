@@ -1,0 +1,5 @@
+--por que se pegarmos números depois de n/2, só conseguiremos números<2 e números>1, ou seja, números não inteiros. Caso n/2 = 2, sabemos que seu próximo divisor será 1, por isso só é necessário analisar valores entre n/2 até 2.
+ 
+--o maior divisor possível de n é ele mesmo
+ 
+--por que após ele mesmo o próximo divisor de n é sqrt(n). Os números após sqrt(n) só retornaram números fracionários
