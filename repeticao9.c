@@ -1,10 +1,10 @@
 #include <stdio.h>
-
+#include <math.h>
 
 int verificarPrimo(int n){
     int i,resto;
     int qntDivisores = 0;
-    for(i=1;i<=n;i++){
+    for(i=1;i<=sqrt(n);i++){
         resto = n%i;
         if (resto == 0){
             qntDivisores++;
@@ -31,7 +31,7 @@ int main(){
             if (n==1){
                 printf("nao existe numero primo antes de 1\n");
             }else{
-                printf("o proximo numero primo antes de 2 eh 1\n");
+                printf("nao existe numero primo antes de 2\n");
             }
         }else {
             do {
